@@ -35,8 +35,7 @@ pipeline{
                     branch 'main'
                 }
 				steps{
-					sh 'lsblk'
-					sh 'uptime'
+					sh 'lsblk'					
 				}
 			}
 			stage('Ngaleu'){
